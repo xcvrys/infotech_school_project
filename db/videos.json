@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "634d8054d6c5534fdd605da1"
+  },
+  "slug": "troja",
+  "title": "Troja",
+  "director": "Wolfgang Petersen",
+  "mainActors": [
+    "Brad Pitt",
+    "Eric Bana",
+    "Orlando Bloom"
+  ],
+  "rating": 8,
+  "description": "W starożytnej Grecji namiętność, jaka połączyła parę najbardziej znanych kochanków w literaturze świata - Parysa, księcia Troi i Helenę , królową Sparty,  stała się przyczyną wojny, za której przyczyną legła w ruinach cała cywilizacja. Porwanie Heleny to obraza, której mąż, król Menelaos , nie może puścić płazem. Afront dla Menelaosa to afront dla całej rodziny brat męża królowej, potężny król Myken, Agamemnon, jednoczy wkrótce wokół siebie liczne plemiona Greków i prowadzi je pod Troję, by walczyć w obronie splamionego honoru swego brata. W rzeczywistości honor jest jedynie wygodnym pretekstem, prawdziwą przyczyną wyruszenia Agamemnona na wyprawę jest chciwość musi zdobyć Troję, by zdobyć panowanie nad morzem Egejskim, co zapewni jego królestwu niekwestionowane przywództwo. Troja to wielkie miasto, otoczone potężnymi murami, włada nim król Priam , broni go waleczny książę Hektor.",
+  "thumb": "https://fwcdn.pl/fph/73/11/37311/193144.3.jpg"
+},{
+  "_id": {
+    "$oid": "634e997b02a7fde558bed621"
+  },
+  "slug": "w-pustyni-i-w-puszczy",
+  "title": "W pustyni i w puszczy",
+  "director": "Gavin Hood",
+  "mainActors": [
+    "Adam Fidusiewicz",
+    "Karolina Sawka",
+    "Artur Żmijewski"
+  ],
+  "rating": 6,
+  "description": "Afryka, lata 80. XIX wieku. Mała Angielka Nel i starszy od niej o kilka lat Polak Staś - dzieci budowniczych kanałów w Egipcie zostają uprowadzone przez wojowników Mahdiego, przywódcy powstania przeciwko Anglikom.",
+  "thumb": "https://images-ext-1.discordapp.net/external/6Xk76WxA5wsLDAtzsqD_GN8UGpglqaz6Lbz4-whBXEk/%3Fsrcx%3D0%26srcy%3D0%26srcw%3D960%26srch%3D540%26dstw%3D900%26dsth%3D506%26srcmode%3D0%26quality%3D65%26type%3D1/https/r-scale-56.dcs.redcdn.pl/scale/o2/rasp/vod/prod/images/349165d3-7d71-463f-9552-a193172c7360/43b4460a76da92fdebda4efadda79bc1.jpg"
+},{
+  "_id": {
+    "$oid": "634ea05902a7fde558bed640"
+  },
+  "slug": "akademia-pana-kleksa",
+  "title": "Akademia Pana Kleksa",
+  "director": "Krzysztof Gradowski",
+  "mainActors": [
+    "Piotr Fronczewski",
+    "Sławomir Wronka",
+    "Wiesław Michnikowski"
+  ],
+  "rating": 7,
+  "description": "Adaś Niezgódka w magiczny sposób odnajduje się w bajce pana Kleksa, bohatera książki Brzechwy. Pan Kleks jest nauczycielem i czarodziejem w jednej osobie, więc  nie sposób się nudzić na zajęciach. Zwłaszcza, gdy są to lekcje kleksografii. Adaś odkrywa  nie tylko uroki krainy, ale i jej mroczne tajemnice. ",
+  "thumb": "https://bi.im-g.pl/im/94/32/1b/z28519316Q,Nowa--Akademia-Pana-Kleksa--w-drodze-na-ekrany.jpg"
+},{
+  "_id": {
+    "$oid": "634ea26c02a7fde558bed649"
+  },
+  "slug": "8-mile",
+  "title": "8 Mile",
+  "director": "Curtis Hanson",
+  "mainActors": [
+    "Eminem",
+    "Kim Basinger",
+    "Brittany Murphy"
+  ],
+  "rating": 7,
+  "description": "Tytułowa 8 Mila to ulica Detroit wyznaczająca granicę pomiędzy miastem a przedmieściami. Chłopak mieszka w starej przyczepie samochodowej razem z matką i młodszą siostrą. Pewnego razu postanawia pokazać się szerszej publiczności, jednak jego występ kończy się totalną porażką.",
+  "thumb": "https://film.org.pl/wp-content/uploads/2021/01/8-mile-5.jpg"
+},{
+  "_id": {
+    "$oid": "634ea41502a7fde558bed655"
+  },
+  "slug": "bohemian-rhapsody",
+  "title": "Bohemian Rhapsody",
+  "director": "Bryan Signer",
+  "mainActors": [
+    "Rami Malek",
+    "Lucy Boynton",
+    "Gwilym Lee"
+  ],
+  "rating": 8,
+  "description": "Filmowa biografia Freddiego Mercury'ego i zespołu Queen nie jest kolorową laurką, a opowieścią o rodzinie, braterstwie i potrzebie miłości w brutalnym świecie showbiznesu. Freddiego i jego kolegów z zespołu poznajemy jako młokosów grających w podrzędnych brytyjskich klubach. Wtedy, gdy odnoszą największe sukcesy i wtedy gdy konflikty wewnątrz zespołu grożą jego rozpadem. Poznajemy Freddiego Mercury’ego zarówno jako charyzmatycznego lidera, który porusza tłumy, jak i najbardziej samotnego człowieka na świecie.",
+  "thumb": "https://pelnasala.pl/wp-content/uploads/2018/11/Bohemian-Rhapsody-05.jpg"
+},{
+  "_id": {
+    "$oid": "634ea7da02a7fde558bed669"
+  },
+  "slug": "potop",
+  "title": "Potop",
+  "director": "Jerzy Hoffman",
+  "mainActors": [
+    "Małgorzata Braunek",
+    "Tadeusz Łomnicki",
+    "Daniel Olbrychski"
+  ],
+  "rating": 7,
+  "description": "Lata 1655-1660, okres najazdu szwedzkiego na Polskę. Uznany przez szlachtę i narzeczoną za zdrajcę zaczyna poniewczasie rozumieć, że Radziwiłłom chodzi nie o dobro ojczyzny, ale o własne interesy. Doszedłszy do zdrowia, Andrzej Kmicic stara się zwrócić honor swojemu nazwisku.",
+  "thumb": "https://tvn24.pl/najnowsze/cdn-zdjecie1e9a58d591ea8fbd543efce1b5cc2fd5-malgorzata-braunek-i-daniel-olbrychski-w-potopie-hoffmana-3520437/693242ea-1fd2-11e4-bae6-0025b511226e.jpg"
+}]

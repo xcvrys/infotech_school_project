@@ -1,0 +1,63 @@
+.title {
+  color: hsl(196deg, 4%, 73%);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 2rem;
+}
+
+.main {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main .card {
+  cursor: pointer;
+  position: relative;
+  background-color: hsl(185deg, 8%, 41%);
+  width: 300px;
+  height: 300px;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.main .card:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+.main .card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+.main .card .details {
+  padding: 0.5rem 1rem;
+}
+.main .card .details h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 85%);
+}
+.main .card .details p {
+  color: hsl(196deg, 4%, 73%);
+}
+.main .card .details h2,
+.main .card .details p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .card .rating {
+  display: flex;
+  background-color: inherit;
+  width: fit-content;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 0 0 1rem 0;
+  color: hsl(196deg, 4%, 73%);
+  fill: hsl(3deg, 91%, 67%);
+}
+
+/*# sourceMappingURL=Home.module.css.map */

@@ -1,0 +1,93 @@
+.main {
+  background-color: hsl(185deg, 8%, 41%);
+  margin: 1rem;
+  width: 90vw;
+  height: 80vh;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main .header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-weight: bolder;
+  color: hsl(180deg, 16%, 12%);
+}
+.main .header svg {
+  fill: hsl(180deg, 16%, 12%);
+}
+.main tr,
+.main th,
+.main td {
+  padding: 0.5rem 1rem;
+  text-align: right;
+}
+.main .colorH {
+  background-color: hsl(180deg, 16%, 12%);
+  color: gray;
+}
+.main .colorH:nth-child(2) {
+  border-radius: 1rem 0 0 1rem;
+}
+.main .colorH:nth-last-child(1) {
+  border-radius: 0 1rem 1rem 0;
+}
+.main .colorS {
+  background-color: hsl(180deg, 16%, 12%);
+  color: gray;
+}
+.main table {
+  width: 40%;
+  max-width: 70vh;
+  overflow: auto;
+}
+.main table tbody tr {
+  border-bottom: hsl(180deg, 16%, 12%) 1px solid;
+}
+.main table tbody tr:nth-last-child(1) {
+  border-bottom: none;
+}
+.main table tbody tr td {
+  border-left: none;
+}
+.main table tbody tr td:nth-last-child(1) {
+  border-left: hsl(180deg, 16%, 12%) 1px solid;
+}
+
+button {
+  margin: 1rem;
+  background-color: hsl(185deg, 9%, 32%);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: hsl(196deg, 4%, 73%);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  scale: 1.2;
+}
+
+.first {
+  background-color: hsl(180deg, 16%, 12%);
+  border-radius: 1rem 1rem 0 0;
+  color: gray;
+  width: 1rem;
+}
+
+.last {
+  background-color: hsl(180deg, 16%, 12%);
+  border-radius: 0 0 1rem 1rem;
+  color: gray;
+}
+
+/*# sourceMappingURL=Leaderboard.module.css.map */

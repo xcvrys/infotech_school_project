@@ -1,0 +1,82 @@
+.main {
+  background-color: hsl(185deg, 9%, 32%);
+  border-radius: 1rem;
+  width: 90vw;
+  padding: 2rem;
+  margin: 2rem;
+}
+.main .back {
+  margin: 1rem;
+  background-color: hsl(185deg, 8%, 41%);
+  border-radius: 0.5rem;
+  padding: 0.05rem 1rem;
+  fill: hsl(196deg, 4%, 73%);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.main .back:hover {
+  background-color: hsl(180deg, 16%, 12%);
+}
+.main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.main .content img {
+  border-radius: 0.5rem;
+  max-width: 50rem;
+  max-height: 50rem;
+}
+.main .content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 85%);
+}
+.main .content .cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.main .content .cast span {
+  padding: 0.5rem;
+  background-color: hsl(180deg, 16%, 12%);
+  border-radius: 0.75rem;
+  color: hsl(0deg, 0%, 85%);
+}
+.main .content p {
+  color: hsl(0deg, 0%, 85%);
+}
+.main .btn {
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+.main .btn button {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  background-color: hsl(185deg, 8%, 41%);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: #babebf;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.main .btn button:hover {
+  background-color: hsl(180deg, 16%, 12%);
+  scale: 1.2;
+}
+
+@media only screen and (max-width: 650px) {
+  .main .content .cast {
+    gap: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=Details.module.css.map */

@@ -1,0 +1,68 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+.main .start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: hsl(196deg, 4%, 73%);
+  margin: 1rem;
+  gap: 1rem;
+}
+.main .start span {
+  font-size: 1rem;
+  color: hsl(185deg, 9%, 32%);
+}
+.main .start p {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.main .start .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.main .start .btn button {
+  background-color: hsl(185deg, 9%, 32%);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: hsl(196deg, 4%, 73%);
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.main .start .btn button:hover {
+  scale: 1.2;
+}
+.main .start input {
+  outline: none;
+  background-color: hsl(185deg, 8%, 41%);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main .start span {
+    font-size: 0.75rem;
+  }
+  .main .start p {
+    font-size: 1.5rem;
+  }
+  .main .start .btn button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+/*# sourceMappingURL=Quizz.module.css.map */

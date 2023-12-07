@@ -1,0 +1,95 @@
+@import "./colors";
+
+.main {
+  background-color: $green-200;
+  border-radius: 1rem;
+  width: 90vw;
+  padding: 2rem;
+  margin: 2rem;
+
+  .back {
+    margin: 1rem;
+    background-color: $green-100;
+    border-radius: 0.5rem;
+    padding: 0.05rem 1rem;
+    fill: $gray;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: $green-300;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+    img {
+      border-radius: 0.5rem;
+      max-width: 50rem;
+      max-height: 50rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: $white;
+    }
+
+    .cast {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      span {
+        padding: 0.5rem;
+        background-color: $green-300;
+        border-radius: 0.75rem;
+        color: $white;
+      }
+    }
+
+    p {
+      color: $white;
+    }
+  }
+  .btn {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+
+    button {
+      display: flex;
+      gap: 0.25rem;
+      margin-top: 1rem;
+      background-color: $green-100;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      color: #babebf;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: $green-300;
+        scale: 1.2;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .main {
+    .content {
+      .cast {
+        gap: 0.5rem;
+      }
+    }
+  }
+}

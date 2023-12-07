@@ -1,0 +1,1 @@
+export const QUIZ_CORRECT_ANSWER_POINTS = 125;

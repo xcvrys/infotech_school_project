@@ -1,0 +1,102 @@
+@import "./colors";
+
+.main {
+  background-color: $green-100;
+  margin: 1rem;
+  width: 90vw;
+  height: 80vh;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-weight: bolder;
+    color: $green-300;
+    svg {
+      fill: $green-300;
+    }
+  }
+
+  tr,
+  th,
+  td {
+    padding: 0.5rem 1rem;
+    text-align: right;
+  }
+
+  .colorH {
+    background-color: $green-300;
+    color: gray;
+
+    &:nth-child(2) {
+      border-radius: 1rem 0 0 1rem;
+    }
+    &:nth-last-child(1) {
+      border-radius: 0 1rem 1rem 0;
+    }
+  }
+
+  .colorS {
+    background-color: $green-300;
+    color: gray;
+  }
+
+  table {
+    width: 40%;
+    max-width: 70vh;
+    overflow: auto;
+    tbody {
+      tr {
+        border-bottom: $green-300 1px solid;
+        &:nth-last-child(1) {
+          border-bottom: none;
+        }
+        td {
+          border-left: none;
+
+          &:nth-last-child(1) {
+            border-left: $green-300 1px solid;
+          }
+        }
+      }
+    }
+  }
+}
+button {
+  margin: 1rem;
+  background-color: $green-200;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: $gray;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    scale: 1.2;
+  }
+}
+
+.first {
+  background-color: $green-300;
+  border-radius: 1rem 1rem 0 0;
+  color: gray;
+  width: 1rem;
+}
+
+.last {
+  background-color: $green-300;
+  border-radius: 0 0 1rem 1rem;
+  color: gray;
+}

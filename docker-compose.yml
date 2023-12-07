@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  mongodb:
+    build: ./db/
+    restart: unless-stopped
+    container_name: mongodb
+    command: mongod --auth
+    networks:
+      - app
+  backend:
+    build: ./backend/
+    restart: unless-stopped
+    container_name: backend
+    networks:
+      - app
+    ports:
+      - 8080:8080
+    links:
+      - mongodb
+  frontend:
+    build: ./videos/
+    restart: unless-stopped
+    container_name: frontend
+    ports:
+      - 3000:3000
+    links:
+      - backend
+networks:
+  app:
+    driver: bridge
